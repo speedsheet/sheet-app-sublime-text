@@ -1,0 +1,695 @@
+# <#>Sublime Text<> SpeedSheet
+<b>What you need, faster.<>
+
+
+# Official
+
+Official Site:
+<l>http://www.sublimetext.com<>
+
+Syntax Highlighting:
+<l>http://www.sublimetext.com/docs/syntax.html<>
+
+
+
+# Settings
+
+
+### Default Settings
+
+Default settings for the app.
+
+Note: This will be reset whenever the app is upgraded.
+Recommend using User settings instead.
+
+
+### User Settings
+
+The user settings.
+
+
+### Search Settings - ".*"
+
+Selected - Regular Expression Search.
+
+
+### Search Setting - "Aa"
+
+Selected - Case Sensitive Search.
+
+
+### Search Setting - " "" "
+
+Selected - Whole Word Search.
+
+
+
+# Commands
+
+
+### App - Quit
+
+Mac:
+
+<cb>Command + Q<>
+
+
+### All - Find
+
+Mac:
+
+<cb>Command + Control + G<>
+
+Windows:
+
+<cb>Alt + F3<>
+
+
+### Auto Complete
+
+Mac:
+
+<cb>Control + Space	Control + Space<>
+
+See Also: Tab Complete
+
+
+### Browser - Refresh	
+
+Mac:
+
+<cb>Command + Shift + R
+
+Requires: Browser Refresh (Plugin)
+
+
+### Code - Fold / Collapse
+
+Mac:
+
+<cb>Command + Option + [<>
+
+
+### Code - Unfold / Uncollapse
+
+Mac:
+
+<cb>Command + Option + ]<>
+
+
+### Command Line - Create Command On MacOS
+
+<cb>ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl<>
+
+<cb>ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime<>
+@
+@ OSX, create link
+
+
+### Command Line - Open Current Directory
+
+From the current directory
+
+<cb>open Terminal / Command Prompt
+sublime .</cb>
+
+
+The '.' pulls in the current path.
+
+
+### Command Palette - Show
+
+Mac:
+
+<cb>Command + Shift + P<>
+
+Uses Fuzzy Searching
+Capital letter will designate new word.
+
+
+### Console - Show / Hide
+
+<cb>Menu -> View -> Show Console<>
+
+Mac:
+
+<cb>Control + `<>
+
+
+### Definition - Find
+
+Mac:
+
+<cb>Command + Option + Down Arrow	(⌥ + ⌘ + ⬇)<>
+
+
+### Doc - Close
+
+Mac:
+
+<cb>Command + W<>
+
+
+### Doc - Save
+
+Mac:
+
+<cb>Command + S<>
+
+
+
+### Docs - Save All
+
+Mac:
+
+<cb>Option ⌥ + Command ⌘ + S<>
+
+
+
+### Edit - Find
+
+Mac:
+
+<cb>Command + F<>
+
+
+### Edit - Find Next
+
+Mac:
+
+<cb>Command + G<>
+
+
+Finds next match after starting search.
+
+
+### Edit - Find All
+
+Mac:
+
+<cb>Option + Enter<>
+
+
+### Edit - Incremental Find
+
+Mac:
+
+<cb>Command + I	// Find Incremental<>
+
+
+
+### Edit - Replace
+
+Mac:
+
+<cb>Command + Option + F<>
+
+
+### Edit - Replace Next
+
+Mac:
+
+<cb>Command + Option + E<>
+
+
+### Edit - Replace All
+
+Mac:
+
+<cb>Control + Option + Enter<>
+
+
+### File Encoding - Set
+
+<cb>Menu -> File -> "Save With Encoding"<>
+
+
+### File - Refresh / Revert
+
+<cb>Menu -> File -> Revert File<>
+
+
+Usually this happens automatically.
+
+
+### Goto - Anything
+
+<cb>Command + P<>
+
+@	- Lookup symbol in code. Start with Uses fuzzy naming.
+
+filename@symbol	// Shortcut.
+
+
+### Goto - Definition
+
+<cb>Right Click
+Goto Definition<>
+
+Mac:
+
+<cb>Command + Option + Down Arrow  (⌥ + ⌘ + ⬇)<>
+
+
+Requires: "index_files": true
+
+
+
+### Goto - Jump Previous
+
+Mac:
+
+<cb>Control + Minus  (^ + -)<>
+@
+@ Back
+
+
+
+### Goto - Jump Next
+
+Mac:
+
+<cb>Control + Shift + Minus  (^ + Shift + -)<>
+@
+@ Forward
+
+
+
+### Goto - Symbol		
+
+Mac:
+
+<cb>Command + R<>
+
+
+### Line - Join		
+
+Mac:
+
+<cb>Command + J<>
+
+
+### Line - Split	
+
+Windows:
+
+<cb>Ctrl + Shift + L
+
+Mac:
+
+<cb>Command + Shift + L<>
+
+
+### Lines - Sort
+
+<cb>F5<>
+
+
+### Multiple Cursors - Select All Matches
+
+Mac:
+
+<cb>Command + Control + G<>
+@
+@ Search
+
+
+### Multiple Cursors - Select Area	
+
+Mac:
+
+<cb>Option + Mouse (Select Area)<>
+
+
+### Multiple Cursors - Select Add Next...
+
+Windows:
+
+<cb>Ctrl + D<>
+
+<cb>Command + D<>
+
+Adds next match one at a time.
+First time - adds current word.
+
+
+### Multiple Cursors - Selection - Select All Lines
+
+Highlight Lines, Then
+
+Mac:
+
+<cb>Option + Shift + i<>
+
+Windows:
+
+<cb>Alt + Shift + i<>
+@
+@ To
+
+
+### Multiple Cursors - Cancel
+
+<cb>Escape<>
+
+
+### Multiple File - Replace
+
+Mac:
+
+<cb>Command + Shift + F<>
+
+
+### Screen - Split
+
+Mac:
+
+<cb>Command + Option 1			<#>Restore Single Panel<><>
+
+<cb>Command + Option 2			<#>Split In 2<><>
+
+<cb>Command + Option 3<>		<#>Split In 3<><>
+
+<cb>Command + Option 4<>		<#>Split In 4<><>
+
+<cb>Command + Option 5<>		<#>Split In 4 / Quarter Panels<><>
+@
+@ View Columns, Panels, Quarter
+
+
+### Selection - Comment / Remove Comment
+
+Mac:
+
+<cb>Command + /<>
+
+
+Works for Bash, JavaScript, Html, etc.
+@
+@ Add, Comments, Line, Selection
+
+
+### Selection - Find - All
+
+Mac:
+
+<cb>Control + Command + G<>
+
+
+### Selection - Find - Next
+
+Mac:
+
+<cb>Control + Option + G<>
+
+
+### Settings - User
+
+Mac:
+
+<cb>Command + ,<>
+@
+@ Show, View, Preferences
+
+
+### Sidebar - File - Open
+
+Double click on file name.
+
+
+### Sidebar - File - Preview
+
+Single click on file name.
+
+
+### Sidebar - Show / Hide
+
+Mac:
+
+<cb>Command + K
+Command + B<>
+
+<cb>Menu -> View -> Sidebar -> Show Open Files<>
+@
+@ Toggle
+
+
+### Snippet
+
+
+
+### Tab Complete
+
+<cb>TAB<>
+
+
+### Zoom In
+
+Mac:
+
+<cb>Command + =<>
+
+
+### Zoom Out
+
+Mac:
+
+<cb>Command + -<>
+
+
+### Package - Filter	
+
+Mac:
+
+<cb>Command + K<>
+@
+@ Plugin
+
+
+### Package - Filter - Filter By Regex
+
+Mac:
+
+<cb>Command + K, Command + R<>
+@
+@ Plugin
+
+
+### Package - Filter - Filter By String	
+
+Mac:
+
+<cb>Command + K, Command + S<>
+@
+@ Plugin
+
+
+### Package - Install
+
+<cb>Open Command Palete
+enter "install package"
+Select “Package Control: Install Package”
+enter "<v>package name"<><>
+@
+@ plugin
+
+
+### Packages - List
+
+<cb>Open Command Palete
+list package<>
+@
+@ plugin
+
+
+### Package Control - Install (Sublime 3)
+
+<!>Still needed?<>
+
+1. Open Console
+
+2. Execute the following:
+
+<cb>import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)<>
+
+
+# How To
+
+### Key Mappings - Create
+
+Open (MacOS):
+
+<l "$HOME/Library/Application Support/Sublime Text 3/Packages/User">$HOME/Library/Application Support/Sublime Text 3/Packages/User<>
+
+Create File:
+
+<cb>Default.sublime-keymap<>
+
+<cb>[
+	{
+		"keys": ["<v>key1<>+<v>key2<>+<v>key3<>"],
+		"command": "<v>command_name<>"
+	}<v>...<>
+]<>
+
+
+### Key Mapping - Keys
+
+<cb>ctrl, control, alt, option, command, super, primary
+up, down, left, right
+tab, enter, escape, pause, space
+f1... f20<>
+
+
+# Index
+
+
+## Preference Settings
+
+
+### Auto Complete
+
+"auto_complete": true | false	// Prevents auto complete after "<" character.
+
+Definitions - Find / Index	"index_files": true	
+
+
+### Tab Complete
+
+"tab_completion": true | false	// prevents tab complete after pressing TAB.
+
+
+### Word Wrap
+
+"word_wrap": true | false
+
+
+## Packages
+
+
+### AlignTab
+
+
+### Browser Refresh
+
+Refreshes the browser (Chrome by default) after changes
+
+Refresh: Command + Shift + R
+
+Note: Additional instructions shown after installation.
+
+Home: <l>https://github.com/gcollazo/BrowserRefresh-Sublime<>
+
+
+### CSSFormat
+
+<!>Re-evaluate<>
+
+
+### CSSLint
+
+<!>Re-evaluate<>
+
+
+### GitGuttes
+
+<!>Re-evaluate<>
+
+Shows differences between Git version of file and local version.
+
+
+### HTMLBeautify
+
+<!>Re-evaluate<>
+
+
+### IndentXML
+
+<!>Re-evaluate<>
+
+
+### Javascript Butify
+
+<!>Re-evaluate<>
+
+
+### JSFormat
+
+<!>Re-evaluate<>
+
+
+### Minify
+
+Compresses JavaScript Files 👍.
+
+Command:
+
+<cb>HTML Minifier: Minify File <v>...<><>
+
+Install / Command Line:
+
+<cb>npm install -g clean-css-cli uglifycss js-beautify html-minifier uglify-js minjson svgo<>
+
+Install / Sublime:
+
+<cb>minify		<#># Use 'github.com/tssajo/Minify' version.<><>
+
+
+Links:
+
+<l>https://packagecontrol.io/packages/Minify<>
+
+<l>https://github.com/tssajo/Minify<>
+
+
+
+### Pretty Json
+
+Install:
+<cb>pretty json<>
+
+The one to go with.
+Formats and validates JSON.
+
+👍
+
+
+### SublimeLinter
+
+<!>Re-evaluate<>
+
+A linting framework for the following plugins:
+
+	SublimeLinter-html-tidy
+	SublimeLinter-json
+	SublimeLinter-xmllint
+
+
+### SublimeLinter-html-tidy
+
+<!>Re-evaluate<>
+
+Requires Tidy Html 5 be installed.
+(brew install tidy-html5)
+
+
+### SublimeLinter-json
+
+<!>Re-evaluate<>
+
+
+### SublimeLinter-xmllint
+
+<!>Re-evaluate<>
+
+Requires xmllint be installed.
+(Installed by default on macs)
+
+
+# Glossary
+
+
+### Minimap
+The birds eye view of the document on the right hand side.
+
+

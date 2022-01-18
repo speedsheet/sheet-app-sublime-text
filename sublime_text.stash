@@ -7,9 +7,6 @@
 Official Site:
 <l>http://www.sublimetext.com<>
 
-Syntax Highlighting:
-<l>http://www.sublimetext.com/docs/syntax.html<>
-
 
 
 # Settings
@@ -539,6 +536,23 @@ Create File:
 up, down, left, right
 tab, enter, escape, pause, space
 f1... f20<>
+
+
+### Syntax Highlighting - Add
+
+Stack Overflow Answer:
+<l>https://stackoverflow.com/questions/49781644/custom-syntax-in-sublime-text-3/49784249<>
+\<included
+
+Syntax Highlighting:
+<l>http://www.sublimetext.com/docs/syntax.html<>
+
+Scope Rules:
+<l>https://www.sublimetext.com/docs/scope_naming.html<>
+
+Color Scheme Rules:
+<l>https://www.sublimetext.com/docs/color_schemes.html<>
+
 
 
 # Index

@@ -537,6 +537,20 @@ up, down, left, right
 tab, enter, escape, pause, space
 f1... f20<>
 
+Mac Command Key
+
+<cb>super<>
+
+
+### Key Mapping - Word Wrap
+
+<cb>preferences -> Key Bindings<>
+
+<cb>{ "keys": ["super+shift+w"], "command": "toggle_setting", "args": {
+        "setting": "word_wrap"
+    }
+}<>
+
 
 ### Syntax Highlighting - Add
 

@@ -2,6 +2,20 @@
 <b>What you need, faster.<>
 
 
+# Learn
+
+Comment			Command ⌘ + /				<c>⋅⋅⌘ /<>
+
+Line - Duplicate		Command ⌘ + Shift + D			<c>⋅⋅⌘ Shift D<>
+Line - Delete			Control ⌃ + Shift + K			<c>^⋅⋅ Shift K<>
+
+Line - Move Down		Control ⌃ + Command ⌘ + ⬇		<c>^⋅⌘ ⬇<>
+Line - Move Up		Control ⌃ + Command ⌘ + ⬆		<c>^⋅⌘ ⬆<>
+
+Select - Line			Command ⌘ + L				<c>⋅⋅⌘ L<>
+
+
+
 # Official
 
 Official Site:
@@ -48,14 +62,14 @@ Selected - Whole Word Search.
 
 Mac:
 
-<cb>Command + Q<>
+<cb>Command ⌘ + Q<>
 
 
 ### All - Find
 
 Mac:
 
-<cb>Command + Control + G<>
+<cb>Command ⌘ + Control ^ + G<>
 
 Windows:
 
@@ -66,7 +80,7 @@ Windows:
 
 Mac:
 
-<cb>Control + Space	Control + Space<>
+<cb>Control ^ + Space<>
 
 See Also: Tab Complete
 
@@ -75,7 +89,7 @@ See Also: Tab Complete
 
 Mac:
 
-<cb>Command + Shift + R<>
+<cb>Command ⌘ + Shift + R<>
 
 Requires: Browser Refresh (Plugin)
 
@@ -84,14 +98,14 @@ Requires: Browser Refresh (Plugin)
 
 Mac:
 
-<cb>Command + Option + [<>
+<cb>Command ⌘ + Option ⌥ + [<>
 
 
 ### Code - Unfold / Uncollapse
 
 Mac:
 
-<cb>Command + Option + ]<>
+<cb>Command ⌘ + Option ⌥ + ]<>
 
 
 ### Command Line - Create Command On MacOS
@@ -108,7 +122,7 @@ Mac:
 From the current directory
 
 <cb>open Terminal / Command Prompt
-sublime .</cb>
+sublime .<>
 
 
 The '.' pulls in the current path.
@@ -118,7 +132,7 @@ The '.' pulls in the current path.
 
 Mac:
 
-<cb>Command + Shift + P<>
+<cb>Command ⌘ + Shift + P<>
 
 Uses Fuzzy Searching
 Capital letter will designate new word.
@@ -126,32 +140,34 @@ Capital letter will designate new word.
 
 ### Console - Show / Hide
 
-<cb>Menu -> View -> Show Console<>
+<cb>Menu:
+-> View
+-> Show Console<>
 
 Mac:
 
-<cb>Control + `<>
+<cb>Control ^ + `<>
 
 
 ### Definition - Find
 
 Mac:
 
-<cb>Command + Option + Down Arrow	(⌥ + ⌘ + ⬇)<>
+<cb>Command ⌘ + Option ⌥ + Down Arrow	(⌥ + ⌘ + ⬇)<>
 
 
 ### Doc - Close
 
 Mac:
 
-<cb>Command + W<>
+<cb>Command ⌘ + W<>
 
 
 ### Doc - Save
 
 Mac:
 
-<cb>Command + S<>
+<cb>Command ⌘ + S<>
 
 
 
@@ -167,14 +183,14 @@ Mac:
 
 Mac:
 
-<cb>Command + F<>
+<cb>Command ⌘ + F<>
 
 
 ### Edit - Find Next
 
 Mac:
 
-<cb>Command + G<>
+<cb>Command ⌘ + G<>
 
 
 Finds next match after starting search.
@@ -184,14 +200,14 @@ Finds next match after starting search.
 
 Mac:
 
-<cb>Option + Enter<>
+<cb>Option ⌥ + Enter<>
 
 
 ### Edit - Incremental Find
 
 Mac:
 
-<cb>Command + I	// Find Incremental<>
+<cb>Command ⌘ + I	// Find Incremental<>
 
 
 
@@ -199,31 +215,35 @@ Mac:
 
 Mac:
 
-<cb>Command + Option + F<>
+<cb>Command ⌘ + Option ⌥ + F<>
 
 
 ### Edit - Replace Next
 
 Mac:
 
-<cb>Command + Option + E<>
+<cb>Command ⌘ + Option ⌥ + E<>
 
 
 ### Edit - Replace All
 
 Mac:
 
-<cb>Control + Option + Enter<>
+<cb>Control ^ + Option ⌥ + Enter<>
 
 
 ### File Encoding - Set
 
-<cb>Menu -> File -> "Save With Encoding"<>
+<cb>Menu:
+-> File
+-> "Save With Encoding"<>
 
 
 ### File - Refresh / Revert
 
-<cb>Menu -> File -> Revert File<>
+<cb>Menu:
+-> File
+-> Revert File<>
 
 
 Usually this happens automatically.
@@ -231,9 +251,9 @@ Usually this happens automatically.
 
 ### Goto - Anything
 
-<cb>Command + P<>
+<cb>Command ⌘ + P<>
 
-@	- Lookup symbol in code. Start with Uses fuzzy naming.
+\@	- Lookup symbol in code. Start with Uses fuzzy naming.
 
 filename@symbol	// Shortcut.
 
@@ -245,56 +265,81 @@ Goto Definition<>
 
 Mac:
 
-<cb>Command + Option + Down Arrow  (⌥ + ⌘ + ⬇)<>
+<cb>Command ⌘ + Option ⌥ + Down Arrow  (⌥ + ⌘ + ⬇)<>
 
 
 Requires: "index_files": true
-
 
 
 ### Goto - Jump Previous
 
 Mac:
 
-<cb>Control + Minus  (^ + -)<>
+<cb>Control ^ + Minus  (^ + -)<>
 @
 @ Back
-
 
 
 ### Goto - Jump Next
 
 Mac:
 
-<cb>Control + Shift + Minus  (^ + Shift + -)<>
+<cb>Control ^ + Shift + Minus  (^ + Shift + -)<>
 @
 @ Forward
-
 
 
 ### Goto - Symbol		
 
 Mac:
 
-<cb>Command + R<>
+<cb>Command ⌘ + R<>
 
 
-### Line - Join		
+### Line - Duplicate
 
 Mac:
 
-<cb>Command + J<>
+<cb>Command ⌘ + Shift + D<>
 
 
-### Line - Split	
+### Line - Delete
+
+Mac:
+
+<cb>Control ⌃ + Shift + K<>
+
+
+### Line - Join
+
+Mac:
+
+<cb>Command ⌘ + J<>
+
+
+### Line - Move Down
+
+Mac:
+
+<cb>Control ⌃ + Command ⌘ + ⬇<>
+
+
+### Line - Move Up
+
+Mac:
+
+<cb>Control ⌃ + Command ⌘ + ⬆<>
+
+
+### Line - Split
 
 Windows:
 
-<cb>Ctrl + Shift + L
+<cb>Ctrl + Shift + L<>
 
 Mac:
 
-<cb>Command + Shift + L<>
+<cb>Command ⌘ + Shift + L<>
 
 
 ### Lines - Sort
@@ -306,7 +351,7 @@ Mac:
 
 Mac:
 
-<cb>Command + Control + G<>
+<cb>Command ⌘ + Control ^ + G<>
 @
 @ Search
 
@@ -315,7 +360,7 @@ Mac:
 
 Mac:
 
-<cb>Option + Mouse (Select Area)<>
+<cb>Option ⌥ + Mouse (Select Area)<>
 
 
 ### Multiple Cursors - Select Add Next...
@@ -324,7 +369,7 @@ Windows:
 
 <cb>Ctrl + D<>
 
-<cb>Command + D<>
+<cb>Command ⌘ + D<>
 
 Adds next match one at a time.
 First time - adds current word.
@@ -336,7 +381,7 @@ Highlight Lines, Then
 
 Mac:
 
-<cb>Option + Shift + i<>
+<cb>Option ⌥ + Shift + i<>
 
 Windows:
 
@@ -354,31 +399,38 @@ Windows:
 
 Mac:
 
-<cb>Command + Shift + F<>
+<cb>Command ⌘ + Shift + F<>
 
 
 ### Screen - Split
 
 Mac:
 
-<cb>Command + Option 1			<#>Restore Single Panel<><>
+<cb>Command ⌘ + Option 1			<#>Restore Single Panel<><>
 
-<cb>Command + Option 2			<#>Split In 2<><>
+<cb>Command ⌘ + Option 2			<#>Split In 2<><>
 
-<cb>Command + Option 3<>		<#>Split In 3<><>
+<cb>Command ⌘ + Option 3<>		<#>Split In 3<><>
 
-<cb>Command + Option 4<>		<#>Split In 4<><>
+<cb>Command ⌘ + Option 4<>		<#>Split In 4<><>
 
-<cb>Command + Option 5<>		<#>Split In 4 / Quarter Panels<><>
+<cb>Command ⌘ + Option 5<>		<#>Split In 4 / Quarter Panels<><>
 @
 @ View Columns, Panels, Quarter
+
+
+### Select - Line
+
+Mac:
+
+<cb>Command ⌘ + L<>
 
 
 ### Selection - Comment / Remove Comment
 
 Mac:
 
-<cb>Command + /<>
+<cb>Command ⌘ + /<>
 
 
 Works for Bash, JavaScript, Html, etc.
@@ -386,25 +438,47 @@ Works for Bash, JavaScript, Html, etc.
 @ Add, Comments, Line, Selection
 
 
+### Selection - Duplicate
+
+Mac:
+
+<cb>Command ⌘ + Shift + D<>
+
+
 ### Selection - Find - All
 
 Mac:
 
-<cb>Control + Command + G<>
+<cb>Control ^ + Command ⌘ + G<>
 
 
 ### Selection - Find - Next
 
 Mac:
 
-<cb>Control + Option + G<>
+<cb>Control ^ + Option ⌥ + G<>
+
+
+
+### Selection - Move Down
+
+Mac:
+
+<cb>Control ⌃ + Command ⌘ + ⬇<>
+
+
+### Selection - Move Up
+
+Mac:
+
+<cb>Control ⌃ + Command ⌘ + ⬆<>
 
 
 ### Settings - User
 
 Mac:
 
-<cb>Command + ,<>
+<cb>Command ⌘ + ,<>
 @
 @ Show, View, Preferences
 
@@ -423,8 +497,8 @@ Single click on file name.
 
 Mac:
 
-<cb>Command + K
-Command + B<>
+<cb>Command ⌘ + K
+Command ⌘ + B<>
 
 <cb>Menu -> View -> Sidebar -> Show Open Files<>
 @
@@ -444,21 +518,21 @@ Command + B<>
 
 Mac:
 
-<cb>Command + =<>
+<cb>Command ⌘ + =<>
 
 
 ### Zoom Out
 
 Mac:
 
-<cb>Command + -<>
+<cb>Command ⌘ + -<>
 
 
 ### Package - Filter	
 
 Mac:
 
-<cb>Command + K<>
+<cb>Command ⌘ + K<>
 @
 @ Plugin
 
@@ -467,7 +541,7 @@ Mac:
 
 Mac:
 
-<cb>Command + K, Command + R<>
+<cb>Command ⌘ + K, Command ⌘ + R<>
 @
 @ Plugin
 
@@ -476,7 +550,7 @@ Mac:
 
 Mac:
 
-<cb>Command + K, Command + S<>
+<cb>Command ⌘ + K, Command ⌘ + S<>
 @
 @ Plugin
 
@@ -547,16 +621,24 @@ Mac Command Key
 <cb>preferences -> Key Bindings<>
 
 <cb>{ "keys": ["super+shift+w"], "command": "toggle_setting", "args": {
-        "setting": "word_wrap"
-    }
+		"setting": "word_wrap"
+	}
 }<>
+
+
+
+### Spell Check
+
+<cb>Menu:
+-> View
+-> Spell Check<>
+
 
 
 ### Syntax Highlighting - Add
 
 Stack Overflow Answer:
 <l>https://stackoverflow.com/questions/49781644/custom-syntax-in-sublime-text-3/49784249<>
-\<included
 
 Syntax Highlighting:
 <l>http://www.sublimetext.com/docs/syntax.html<>
@@ -566,84 +648,153 @@ Scope Rules:
 
 Color Scheme Rules:
 <l>https://www.sublimetext.com/docs/color_schemes.html<>
+@
+@ formatting, colors
 
 
 
-# Index
+#### Syntax Highlighting - Steps
+
+<*>Create Files
+Copy To Packages Directory
+Copy/Paste Colors to Scheme<>
+
+Create Files:
+
+<in-2><c><v>extension<>.sublime_settings
+<v>extension<>.sublime-syntax
+<v>extension<>.sublime-color-scheme<><>		<#>(copy / paste colors)<><>
+
+Copy to Packages:
+
+<in-2><c><v>extension<>.sublime_settings
+<v>extension<>.sublime-syntax<><>
 
 
-## Preference Settings
+Copy / Paste To User Color Scheme:
+
+<in-2><c><v>extension<>.sublime-color-scheme<><>
+
+👍
 
 
-### Auto Complete
 
-"auto_complete": true | false	// Prevents auto complete after "<" character.
+#### Syntax Highlighting - Create Files
 
-Definitions - Find / Index	"index_files": true	
+Extension File:
+
+<cb><v>extension<>.sublime-settings<>
+
+Scheme Syntax File:
+
+<cb><v>extension<>.sublime-syntax<>
+
+Color Scheme File:
+
+<cb><v>extension<>.sublime-color-scheme<>
 
 
-### Tab Complete
 
-"tab_completion": true | false	// prevents tab complete after pressing TAB.
+#### Syntax Highlighting - Add To Packages/User
+
+Open Packages/User (Mac):
+
+<cb>Menu:
+-> Sublime Text
+-> Preferences
+-> Browse Packages...<>
 
 
-### Word Wrap
+Copy Files:
 
-"word_wrap": true | false
+<*>'<v>extension<>.sublime-settings'
+'<v>extension<>.sublime-syntax'<>
 
 
-## Packages
+
+#### Syntax Highlighting - Update Current Color Scheme
+
+Open 'Customize Color Scheme' (Mac):
+
+<cb>Menu:
+-> Sublime Text
+-> Preferences
+-> Customize Color Scheme<>
+
+Copy Color Settings:
+
+<*>From '<v>extension<>.sublime-color-scheme'
+Into User Color Settings
+Save<>
+
+
+
+# Preference Settings
+
+
+### Setting - Auto Complete
+
+<cb>"auto_complete": true | false<>
+
+Prevents auto complete after "\<" character.
+
+
+
+### Setting - Definitions - Find / Index
+
+<cb>"index_files": true<>
+
+
+
+### Setting - Tab Complete
+
+<cb>"tab_completion": true | false<>
+
+prevents tab complete after pressing TAB.
+
+
+
+### Setting - Word Wrap
+
+<cb>"word_wrap": true | false<>
+
+
+
+# Packages
 
 
 ### AlignTab
+
 
 
 ### Browser Refresh
 
 Refreshes the browser (Chrome by default) after changes
 
-Refresh: Command + Shift + R
+Refresh: Command ⌘ + Shift + R
 
 Note: Additional instructions shown after installation.
 
 Home: <l>https://github.com/gcollazo/BrowserRefresh-Sublime<>
 
 
-### CSSFormat
 
-<!>Re-evaluate<>
+### LSP (Language Server Protocol)
 
+Provides intellisense like help.
 
-### CSSLint
+Package:
 
-<!>Re-evaluate<>
+<cb>LSP<>
 
+Official Site:
+<l>https://lsp.sublimetext.io<>
 
-### GitGuttes
+Languages:
+<l>https://lsp.sublimetext.io/language_servers/<>
+@
+@ intellisense, help, languages
 
-<!>Re-evaluate<>
-
-Shows differences between Git version of file and local version.
-
-
-### HTMLBeautify
-
-<!>Re-evaluate<>
-
-
-### IndentXML
-
-<!>Re-evaluate<>
-
-
-### Javascript Butify
-
-<!>Re-evaluate<>
-
-
-### JSFormat
-
-<!>Re-evaluate<>
 
 
 ### Minify
